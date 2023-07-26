@@ -1,0 +1,10 @@
+import java.util.Arrays;
+
+public class AlphabetSorting {
+    public static void main(String[] args) {
+        char[] alphabet = {'c', 'a', 'b', 'e', 'd', 'g', 'f'};
+        Arrays.sort(alphabet);
+        System.out.println(Arrays.toString(alphabet));
+        // Output: [a, b, c, d, e, f, g]
+    }
+}
